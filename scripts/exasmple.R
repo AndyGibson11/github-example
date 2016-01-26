@@ -14,3 +14,8 @@ y <-matrix (data=2, nrow = 3, ncol = 3)
 
 rbind(x, y)
 cbind(x, y)
+
+a <- c(1:5)
+names(a) <- c("a", "b", "c", "d", "e")
+colnames(x) <- c("a", "b", "c")
+rownames(x) <- c("fist", "second", "third")
